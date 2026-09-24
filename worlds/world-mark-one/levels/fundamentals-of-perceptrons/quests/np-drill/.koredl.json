@@ -1,0 +1,15 @@
+{
+  "type": "quest",
+  "id": "01a0c71a-9555-7fe2-8641-4eccb702ca68",
+  "slug": "np-drill",
+  "world": "world-mark-one",
+  "run": {
+    "args": [
+      "tests/test_numpy_drills.py",
+      "-v"
+    ],
+    "command": "pytest",
+    "timeout_seconds": 60,
+    "expected_exit_code": 0
+  }
+}

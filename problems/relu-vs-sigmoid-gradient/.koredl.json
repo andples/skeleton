@@ -1,0 +1,14 @@
+{
+  "type": "problem",
+  "id": "01a0c5cb-6e6b-7341-83c7-ff9b43dee726",
+  "slug": "relu-vs-sigmoid-gradient",
+  "run": {
+    "args": [
+      "tests/test_gradient_flow.py",
+      "-v"
+    ],
+    "command": "pytest",
+    "timeout_seconds": 15,
+    "expected_exit_code": 0
+  }
+}

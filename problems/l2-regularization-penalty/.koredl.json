@@ -1,0 +1,14 @@
+{
+  "type": "problem",
+  "id": "01a0c5cb-6e4c-7a71-a8f7-abbaac90d68f",
+  "slug": "l2-regularization-penalty",
+  "run": {
+    "args": [
+      "tests/test_l2.py",
+      "-v"
+    ],
+    "command": "pytest",
+    "timeout_seconds": 15,
+    "expected_exit_code": 0
+  }
+}
